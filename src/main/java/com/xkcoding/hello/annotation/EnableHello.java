@@ -1,3 +1,19 @@
+/*
+ *   Copyright [2019] [Yangkai.Shen]
+ *
+ *   Licensed under the Apache License, Version 2.0 (the "License");
+ *   you may not use this file except in compliance with the License.
+ *   You may obtain a copy of the License at
+ *
+ *       http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *   Unless required by applicable law or agreed to in writing, software
+ *   distributed under the License is distributed on an "AS IS" BASIS,
+ *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *   See the License for the specific language governing permissions and
+ *   limitations under the License.
+ */
+
 package com.xkcoding.hello.annotation;
 
 import com.xkcoding.hello.config.HelloAutoConfiguration;
@@ -5,19 +21,6 @@ import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;
 
-/**
- * <p>
- * 开启 Hello 注解
- * </p>
- *
- * @package: com.xkcoding.hello.annotation
- * @description: 开启 Hello 注解
- * @author: yangkai.shen
- * @date: Created in 2019-03-05 15:01
- * @copyright: Copyright (c) 2019
- * @version: V1.0
- * @modified: yangkai.shen
- */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
